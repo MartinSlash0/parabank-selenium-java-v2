@@ -1,4 +1,4 @@
----===ParaBank Java Selenium Framework===---
+                              ---===ParaBank Java Selenium Framework===---
                                          made by MartinSlash0
    
                               This project is a UI test automation framework
