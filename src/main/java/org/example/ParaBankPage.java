@@ -77,23 +77,32 @@ public class ParaBankPage extends BasePage {
         clickElement(Locators.SideBarLogoutButton);
     }
 
-    protected void checkInitialAccountBalance() {
-        mainAccountId = getElementText(Locators.AccountOverviewMainAccountId);
-        accountTotalBalance = getElementText(Locators.AccountOverviewTotalBalance);
-        accountTotalBalance = accountTotalBalance.substring(1);
-        accountTotalBalanceDouble =  Double.parseDouble(accountTotalBalance);
-        logger.info("Account Balance is: {}", accountTotalBalance);
+    protected void checkInitialAccountId() {
+        mainAccountId = getElementText(Locators.MainAccountId);
+        logger.info("Main Account ID is: {}", mainAccountId);
     }
 
     protected void openNewAccount(String type,String fromId) {
         selectDropdownOption(Locators.NewAccountTypeField, type);
         selectDropdownOption(Locators.TransferFromIdField, fromId);
         clickElement(Locators.NewAccountButton);
-        String text = getElementText(Locators.NewAccountInfoText);
-        double minAmountNewAccount = Double.parseDouble(text.substring(text.indexOf('$')+1, text.indexOf(" must")));
+    }
+
+    protected void getAccountsInfo() {
+        mainAccountId = getElementText(Locators.MainAccountId);
+        mainAccountBalance = getElementText(Locators.MainAccountBalance);
+        mainAccountBalance = mainAccountBalance.substring(1);
+        mainAccountBalanceDouble =  Double.parseDouble(mainAccountBalance);
+        logger.info("Main Account Balance is: {}", mainAccountBalance);
         newAccountId = getElementText(Locators.NewAccountId);
-        mainAccountBalanceDouble = accountTotalBalanceDouble - minAmountNewAccount;
-        newAccountBalanceDouble = minAmountNewAccount;
+        newAccountBalance = getElementText(Locators.NewAccountBalance);
+        newAccountBalance = newAccountBalance.substring(1);
+        newAccountBalanceDouble =  Double.parseDouble(newAccountBalance);
+        logger.info("New Account Balance is: {}", newAccountBalance);
+        accountTotalBalance = getElementText(Locators.AccountOverviewTotalBalance);
+        accountTotalBalance = accountTotalBalance.substring(1);
+        accountTotalBalanceDouble =  Double.parseDouble(accountTotalBalance);
+
     }
 
     protected void transferFunds(String fromId, String toId, String amount) {

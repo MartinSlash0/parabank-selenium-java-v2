@@ -19,6 +19,7 @@ public class Locators {
     public static final By HeaderPanelAboutButton = By.xpath("//a[text()='About']");
     public static final By HeaderPanelContactButton = By.xpath("//a[text()='Contact']");
     //-Sidebar Account Services
+    public static final By SideBarLoggedInSmallText = By.cssSelector(".smallText");
     public static final By SideBarLoginPanelTitle = By.cssSelector("#leftPanel > h2");
     public static final By SideBarLoginPanel = By.id("loginPanel");
     public static final By SideBarLoginPanelUsernameField = By.cssSelector("[name='username']");
@@ -49,7 +50,6 @@ public class Locators {
     public static final By RegistrationRegisterButton = By.cssSelector("[value='Register']");
     //-Account Panel Locators
     public static final By AccountOverviewPanel = By.id("overviewAccountsApp");
-    public static final By AccountOverviewMainAccountId = By.cssSelector("#accountTable a");
     public static final By AccountOverviewTotalBalance = By.xpath("//table[@id='accountTable']//b[contains(text(),'$')]");
     //-Transfer Funds Panel Locators
     public static final By TransferFundsAmountField = By.id("amount");
@@ -59,6 +59,10 @@ public class Locators {
     //-New Account Locators
     public static final By NewAccountTypeField = By.id("type");
     public static final By NewAccountButton = By.cssSelector("[value='Open New Account']");
-    public static final By NewAccountId = By.id("newAccountId");
     public static final By NewAccountInfoText = By.xpath("//*[@id='openAccountForm']/form/p[2]/b");
+    //-AccountsInfo Locators
+    public static final By MainAccountId = By.xpath("//*[@id='accountTable']/tbody/tr[1]/td[1]/a");
+    public static final By MainAccountBalance = By.xpath("//*[@id='accountTable']/tbody/tr[1]/td[2]");
+    public static final By NewAccountId = By.xpath("//*[@id='accountTable']/tbody/tr[2]/td[1]/a");
+    public static final By NewAccountBalance = By.xpath("//*[@id='accountTable']/tbody/tr[2]/td[2]");
 }

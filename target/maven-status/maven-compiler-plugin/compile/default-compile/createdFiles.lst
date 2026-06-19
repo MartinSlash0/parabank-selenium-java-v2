@@ -1,0 +1,4 @@
+org\example\BasePage.class
+org\example\Locators.class
+org\example\ParaBankPage.class
+org\example\Config.class

@@ -260,12 +260,11 @@ public class BasePage {
     }
 
     //Screenshots
-    public void takeScreenshot(String testName){
-        try{
+    public void takeScreenshot(String testName) {
+        try {
             File screenshotDir = new File("screenshots");
-
-            if(!screenshotDir.exists()){
-                screenshotDir.mkdir();
+            if (!screenshotDir.exists()) {
+                screenshotDir.mkdirs();
             }
 
             String timestamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
@@ -273,11 +272,12 @@ public class BasePage {
 
             TakesScreenshot screenshot = (TakesScreenshot) driver;
             File srcFile = screenshot.getScreenshotAs(OutputType.FILE);
-            File destFile = new File("screenshots/", fileName);
+            File destFile = new File(screenshotDir, fileName);
 
             FileUtils.copyFile(srcFile, destFile);
-            logger.info("Screenshot saved to: {}", destFile.getAbsolutePath());
-        } catch(Exception e){
+            logger.info("Screenshot saved: {}", destFile.getAbsolutePath());
+
+        } catch(Exception e) {
             logger.error("Failed to take screenshot: {}", e.getMessage());
         }
     }

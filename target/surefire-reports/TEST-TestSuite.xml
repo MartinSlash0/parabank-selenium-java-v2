@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="51.189" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2\target\test-classes;D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2\target\classes;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\marti\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\marti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\marti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\marti\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\marti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\marti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\marti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\marti\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\marti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\marti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\marti\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\marti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\marti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\marti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\marti\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\marti\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\marti\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\marti\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\marti\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\marti\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\marti\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\marti\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\marti\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\marti\.m2\repository\ch\qos\logback\logback-classic\1.5.13\logback-classic-1.5.13.jar;C:\Users\marti\.m2\repository\ch\qos\logback\logback-core\1.5.13\logback-core-1.5.13.jar;C:\Users\marti\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Sofia"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\marti\AppData\Local\Temp\surefire12776845918389468130\surefirebooter-20260619215059526_3.jar C:\Users\marti\AppData\Local\Temp\surefire12776845918389468130 2026-06-19T21-50-59_355-jvmRun1 surefire-20260619215059526_1tmp surefire_0-20260619215059526_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2\target\test-classes;D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2\target\classes;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\marti\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\marti\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\marti\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\marti\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\marti\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\marti\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\marti\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\marti\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\marti\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\marti\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\marti\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\marti\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\marti\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\marti\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\marti\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\marti\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\marti\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\marti\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\marti\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.3\jackson-annotations-2.18.3.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.3\jackson-databind-2.18.3.jar;C:\Users\marti\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.3\jackson-core-2.18.3.jar;C:\Users\marti\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\marti\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\marti\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\marti\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\marti\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\marti\.m2\repository\commons-codec\commons-codec\1.17.1\commons-codec-1.17.1.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\marti\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\marti\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\marti\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\marti\.m2\repository\ch\qos\logback\logback-classic\1.5.13\logback-classic-1.5.13.jar;C:\Users\marti\.m2\repository\ch\qos\logback\logback-core\1.5.13\logback-core-1.5.13.jar;C:\Users\marti\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\marti"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-03-19"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\marti\AppData\Local\Temp\surefire12776845918389468130\surefirebooter-20260619215059526_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22+36-2370"/>
+    <property name="user.name" value="marti"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\marti\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\marti\AppData\Local\Temp\"/>
+    <property name="java.version" value="22"/>
+    <property name="user.dir" value="D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Python311\Scripts\;C:\Python311\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\Program Files\SafeNet\Authentication\SAC\x64;C:\Program Files\SafeNet\Authentication\SAC\x32;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\lib\maven\apache-maven-3.9.12\bin;C:\Users\marti\AppData\Local\Microsoft\WindowsApps;C:\Users\marti\AppData\Roaming\npm;C:\Program Files\Java\jdk-22\bin;C:\Users\marti\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.3.2\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22+36-2370"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="registerNewUserTest" classname="org.example.SeleniumTest" time="4.681">
+    <system-out><![CDATA[21:51:00.479 [main] DEBUG org.testng.TestNG -- suiteXmlPath: "D:\dev\QACourse\Java\SELENIUM\repo\parabank-selenium-java-v2\testng.xml"
+21:51:08.514 [main] INFO org.example.SeleniumTest -- Setup completed!
+21:51:10.339 [main] INFO org.example.BasePage -- Loading page: https://parabank.parasoft.com/
+21:51:10.409 [main] INFO org.example.BasePage -- Element is displayed: By.cssSelector: [class='logo']
+21:51:10.440 [main] INFO org.example.BasePage -- Got text: Experience the difference From: By.cssSelector: [class='caption']
+21:51:10.440 [main] INFO org.example.BasePage -- Text matches: 'Experience the difference'
+21:51:10.471 [main] INFO org.example.BasePage -- Element is displayed: By.id: loginPanel
+21:51:10.487 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Register']
+21:51:10.847 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Register']
+21:51:10.898 [main] INFO org.example.BasePage -- Got text: Signing up is easy! From: By.cssSelector: #rightPanel > h1
+21:51:10.898 [main] INFO org.example.BasePage -- Text matches: 'Signing up is easy!'
+21:51:10.928 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.firstName
+21:51:10.996 [main] INFO org.example.BasePage -- Filling field: By.id: customer.firstName Value: Ivan
+21:51:11.007 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.lastName
+21:51:11.121 [main] INFO org.example.BasePage -- Filling field: By.id: customer.lastName Value: Ivanov
+21:51:11.141 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.address.street
+21:51:11.202 [main] INFO org.example.BasePage -- Filling field: By.id: customer.address.street Value: Ulitsa st. 10
+21:51:11.221 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.address.city
+21:51:11.277 [main] INFO org.example.BasePage -- Filling field: By.id: customer.address.city Value: Balchik
+21:51:11.291 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.address.state
+21:51:11.359 [main] INFO org.example.BasePage -- Filling field: By.id: customer.address.state Value: Dbrich
+21:51:11.373 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.address.zipCode
+21:51:11.429 [main] INFO org.example.BasePage -- Filling field: By.id: customer.address.zipCode Value: 9611
+21:51:11.436 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.phoneNumber
+21:51:11.479 [main] INFO org.example.BasePage -- Filling field: By.id: customer.phoneNumber Value: +359889075296
+21:51:11.495 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.ssn
+21:51:11.543 [main] INFO org.example.BasePage -- Filling field: By.id: customer.ssn Value: 9902116767
+21:51:11.545 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.username
+21:51:11.590 [main] INFO org.example.BasePage -- Filling field: By.id: customer.username Value: Vanko5019
+21:51:11.612 [main] INFO org.example.BasePage -- Scrolled to: By.id: customer.password
+21:51:11.656 [main] INFO org.example.BasePage -- Filling field: By.id: customer.password Value: MyPass123
+21:51:11.668 [main] INFO org.example.BasePage -- Scrolled to: By.id: repeatedPassword
+21:51:11.711 [main] INFO org.example.BasePage -- Filling field: By.id: repeatedPassword Value: MyPass123
+21:51:11.726 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [value='Register']
+21:51:12.085 [main] INFO org.example.BasePage -- Element clicked: By.cssSelector: [value='Register']
+21:51:12.119 [main] INFO org.example.BasePage -- Got text: Welcome Vanko5019 From: By.cssSelector: #rightPanel > h1
+21:51:12.119 [main] INFO org.example.BasePage -- Text matches: 'Welcome Vanko5019'
+21:51:12.143 [main] INFO org.example.BasePage -- Element is displayed: By.id: leftPanel
+21:51:12.143 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Accounts Overview']
+21:51:12.490 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Accounts Overview']
+21:51:12.528 [main] INFO org.example.BasePage -- Got text: Accounts Overview From: By.cssSelector: #showOverview > h1
+21:51:12.528 [main] INFO org.example.BasePage -- Text matches: 'Accounts Overview'
+21:51:12.555 [main] INFO org.example.BasePage -- Element is displayed: By.id: overviewAccountsApp
+21:51:12.555 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Log Out']
+21:51:13.104 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Log Out']
+21:51:13.137 [main] INFO org.example.BasePage -- Element is displayed: By.cssSelector: [class='logo']
+21:51:13.176 [main] INFO org.example.BasePage -- Got text: Experience the difference From: By.cssSelector: [class='caption']
+21:51:13.176 [main] INFO org.example.BasePage -- Text matches: 'Experience the difference'
+21:51:13.200 [main] INFO org.example.BasePage -- Element is displayed: By.id: loginPanel
+]]></system-out>
+  </testcase>
+  <testcase name="openNewAccountTest" classname="org.example.SeleniumTest" time="6.026">
+    <system-out><![CDATA[21:51:23.412 [main] INFO org.example.SeleniumTest -- Setup completed!
+21:51:24.830 [main] INFO org.example.BasePage -- Loading page: https://parabank.parasoft.com/
+21:51:24.893 [main] INFO org.example.BasePage -- Element is displayed: By.cssSelector: [class='logo']
+21:51:24.922 [main] INFO org.example.BasePage -- Got text: Experience the difference From: By.cssSelector: [class='caption']
+21:51:24.922 [main] INFO org.example.BasePage -- Text matches: 'Experience the difference'
+21:51:24.983 [main] INFO org.example.BasePage -- Element is displayed: By.id: loginPanel
+21:51:24.985 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [name='username']
+21:51:25.047 [main] INFO org.example.BasePage -- Filling field: By.cssSelector: [name='username'] Value: Vanko5019
+21:51:25.056 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [name='password']
+21:51:25.098 [main] INFO org.example.BasePage -- Filling field: By.cssSelector: [name='password'] Value: MyPass123
+21:51:25.108 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [value='Log In']
+21:51:25.764 [main] INFO org.example.BasePage -- Element clicked: By.cssSelector: [value='Log In']
+21:51:25.802 [main] INFO org.example.BasePage -- Got text: Accounts Overview From: By.cssSelector: #showOverview > h1
+21:51:25.802 [main] INFO org.example.BasePage -- Text matches: 'Accounts Overview'
+21:51:25.826 [main] INFO org.example.BasePage -- Element is displayed: By.id: overviewAccountsApp
+21:51:25.837 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Accounts Overview']
+21:51:26.140 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Accounts Overview']
+21:51:26.170 [main] INFO org.example.BasePage -- Got text: Accounts Overview From: By.cssSelector: #showOverview > h1
+21:51:26.170 [main] INFO org.example.BasePage -- Text matches: 'Accounts Overview'
+21:51:26.201 [main] INFO org.example.BasePage -- Element is displayed: By.id: overviewAccountsApp
+21:51:26.737 [main] INFO org.example.BasePage -- Got text: 27885 From: By.xpath: //*[@id='accountTable']/tbody/tr[1]/td[1]/a
+21:51:26.737 [main] INFO org.example.BasePage -- Main Account ID is: 27885
+21:51:26.756 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Open New Account']
+21:51:27.050 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Open New Account']
+21:51:27.069 [main] INFO org.example.BasePage -- Got text: Open New Account From: By.cssSelector: #openAccountForm > h1
+21:51:27.069 [main] INFO org.example.BasePage -- Text matches: 'Open New Account'
+21:51:27.687 [main] INFO org.example.BasePage -- Selected option: SAVINGS from dropdown: By.id: type
+21:51:28.251 [main] INFO org.example.BasePage -- Selected option: 27885 from dropdown: By.id: fromAccountId
+21:51:28.260 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [value='Open New Account']
+21:51:28.349 [main] INFO org.example.BasePage -- Element clicked: By.cssSelector: [value='Open New Account']
+21:51:28.893 [main] INFO org.example.BasePage -- Got text: Account Opened! From: By.cssSelector: #openAccountResult > h1
+21:51:28.893 [main] INFO org.example.BasePage -- Text matches: 'Account Opened!'
+21:51:28.901 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Log Out']
+21:51:29.442 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Log Out']
+]]></system-out>
+  </testcase>
+  <testcase name="transferTest" classname="org.example.SeleniumTest" time="7.342">
+    <system-out><![CDATA[21:51:40.371 [main] INFO org.example.SeleniumTest -- Setup completed!
+21:51:41.811 [main] INFO org.example.BasePage -- Loading page: https://parabank.parasoft.com/
+21:51:41.889 [main] INFO org.example.BasePage -- Element is displayed: By.cssSelector: [class='logo']
+21:51:41.922 [main] INFO org.example.BasePage -- Got text: Experience the difference From: By.cssSelector: [class='caption']
+21:51:41.922 [main] INFO org.example.BasePage -- Text matches: 'Experience the difference'
+21:51:41.976 [main] INFO org.example.BasePage -- Element is displayed: By.id: loginPanel
+21:51:41.991 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [name='username']
+21:51:42.071 [main] INFO org.example.BasePage -- Filling field: By.cssSelector: [name='username'] Value: Vanko5019
+21:51:42.080 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [name='password']
+21:51:42.129 [main] INFO org.example.BasePage -- Filling field: By.cssSelector: [name='password'] Value: MyPass123
+21:51:42.141 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [value='Log In']
+21:51:42.825 [main] INFO org.example.BasePage -- Element clicked: By.cssSelector: [value='Log In']
+21:51:42.870 [main] INFO org.example.BasePage -- Got text: Accounts Overview From: By.cssSelector: #showOverview > h1
+21:51:42.870 [main] INFO org.example.BasePage -- Text matches: 'Accounts Overview'
+21:51:42.898 [main] INFO org.example.BasePage -- Element is displayed: By.id: overviewAccountsApp
+21:51:42.908 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Accounts Overview']
+21:51:43.255 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Accounts Overview']
+21:51:43.288 [main] INFO org.example.BasePage -- Got text: Accounts Overview From: By.cssSelector: #showOverview > h1
+21:51:43.288 [main] INFO org.example.BasePage -- Text matches: 'Accounts Overview'
+21:51:43.314 [main] INFO org.example.BasePage -- Element is displayed: By.id: overviewAccountsApp
+21:51:43.850 [main] INFO org.example.BasePage -- Got text: 27885 From: By.xpath: //*[@id='accountTable']/tbody/tr[1]/td[1]/a
+21:51:43.873 [main] INFO org.example.BasePage -- Got text: $415.50 From: By.xpath: //*[@id='accountTable']/tbody/tr[1]/td[2]
+21:51:43.873 [main] INFO org.example.BasePage -- Main Account Balance is: 415.50
+21:51:43.892 [main] INFO org.example.BasePage -- Got text: 28218 From: By.xpath: //*[@id='accountTable']/tbody/tr[2]/td[1]/a
+21:51:43.920 [main] INFO org.example.BasePage -- Got text: $100.00 From: By.xpath: //*[@id='accountTable']/tbody/tr[2]/td[2]
+21:51:43.920 [main] INFO org.example.BasePage -- New Account Balance is: 100.00
+21:51:43.936 [main] INFO org.example.BasePage -- Got text: $515.50 From: By.xpath: //table[@id='accountTable']//b[contains(text(),'$')]
+21:51:43.952 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Transfer Funds']
+21:51:44.270 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Transfer Funds']
+21:51:44.292 [main] INFO org.example.BasePage -- Got text: Transfer Funds From: By.cssSelector: #showForm > h1
+21:51:44.292 [main] INFO org.example.BasePage -- Text matches: 'Transfer Funds'
+21:51:44.308 [main] INFO org.example.BasePage -- Scrolled to: By.id: amount
+21:51:44.353 [main] INFO org.example.BasePage -- Filling field: By.id: amount Value: 100
+21:51:44.888 [main] INFO org.example.BasePage -- Selected option: 27885 from dropdown: By.id: fromAccountId
+21:51:45.491 [main] INFO org.example.BasePage -- Selected option: 28218 from dropdown: By.id: toAccountId
+21:51:45.501 [main] INFO org.example.BasePage -- Scrolled to: By.cssSelector: [value='Transfer']
+21:51:45.586 [main] INFO org.example.BasePage -- Element clicked: By.cssSelector: [value='Transfer']
+21:51:46.130 [main] INFO org.example.BasePage -- Got text: Transfer Complete! From: By.cssSelector: #showResult > h1
+21:51:46.130 [main] INFO org.example.BasePage -- Text matches: 'Transfer Complete!'
+21:51:46.141 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Accounts Overview']
+21:51:46.444 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Accounts Overview']
+21:51:46.982 [main] INFO org.example.BasePage -- Got text: $515.50 From: By.xpath: //table[@id='accountTable']//b[contains(text(),'$')]
+21:51:46.982 [main] INFO org.example.BasePage -- Amount: 515.5 Balance: 515.5
+21:51:47.014 [main] INFO org.example.BasePage -- Got text: $315.50 From: By.xpath: //table[@id='accountTable']//tr[td/a[text()='27885']]//td[2]
+21:51:47.014 [main] INFO org.example.BasePage -- Amount: 315.5 Balance: 315.5
+21:51:47.046 [main] INFO org.example.BasePage -- Got text: $200.00 From: By.xpath: //table[@id='accountTable']//tr[td/a[text()='28218']]//td[2]
+21:51:47.046 [main] INFO org.example.BasePage -- Amount: 200.0 Balance: 200.0
+21:51:47.046 [main] INFO org.example.BasePage -- Scrolled to: By.xpath: //a[text()='Log Out']
+21:51:47.613 [main] INFO org.example.BasePage -- Element clicked: By.xpath: //a[text()='Log Out']
+21:51:47.646 [main] INFO org.example.BasePage -- Element is displayed: By.id: loginPanel
+21:51:47.683 [main] INFO org.example.BasePage -- Got text: Customer Login From: By.cssSelector: #leftPanel > h2
+21:51:47.683 [main] INFO org.example.BasePage -- Text matches: 'Customer Login'
+21:51:47.710 [main] INFO org.example.BasePage -- Element is displayed: By.cssSelector: #rightPanel span
+]]></system-out>
+  </testcase>
+</testsuite>
