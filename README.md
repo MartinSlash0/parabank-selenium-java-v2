@@ -42,7 +42,7 @@
                           1) Clone my repository
                           
                           --> git clone https://github.com/MartinSlash0/parabank-selenium-java-v2
-                          cd parabank-selenium-java-v2
+                          --> cd parabank-selenium-java-v2
                           
                           2) Install dependencies
                           
